@@ -1,0 +1,642 @@
+@charset "UTF-8";
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: "DM Serif Text";
+  font-size: 48px;
+  text-align: left;
+  color: #292B3D;
+}
+
+h2 {
+  font-family: "DM Serif Text";
+  font-size: 40px;
+  color: #292B3D;
+}
+
+h3 {
+  font-family: "DM Serif Text";
+  font-size: 26px;
+  text-align: left;
+  color: #292B3D;
+}
+
+p {
+  font-family: "Work sans";
+  font-size: 24px;
+  text-align: left;
+  color: #292B3D;
+}
+
+ul {
+  list-style-type: none;
+  margin: 62px 62px;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+  flex-direction: column;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #292B3D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "DM Serif Text";
+}
+
+li a:hover {
+  color: #111;
+}
+
+.button {
+  width: 140px;
+  height: 46px;
+  padding: 10px 32px;
+  border: none;
+  text-transform: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: #d5d8bf;
+  border-radius: 20px;
+  color: #292b3d;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #292b3d;
+}
+
+.logga-navbar {
+  display: block;
+  padding-left: 350px;
+  width: 100%;
+}
+
+.top-nav {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent);
+}
+.top-nav .icon-topnav {
+  position: relative;
+  max-width: 1288px;
+  z-index: 3;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 0 !important;
+  display: inline-block;
+  align-items: center;
+}
+.top-nav .icon-topnav .iconbild {
+  border-radius: 50%;
+  border: white;
+  border-style: double;
+}
+.top-nav .topnav-text {
+  display: inline-block;
+  padding-top: 30px;
+}
+.top-nav .topnav-text .första-p {
+  color: #292b3d;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.top-nav .topnav-text .andra-p {
+  color: #292b3d;
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.short-cv {
+  background-color: white;
+  width: 725px;
+  margin: 0px auto 56px;
+  padding: 50px;
+}
+
+.col-sm-6.case-persona {
+  padding-left: 200px;
+  padding-right: 20px;
+}
+.col-sm-6.case-persona p {
+  text-align: left;
+  font-size: 24px;
+}
+
+.col-sm-6.case-elbolaget {
+  padding-right: 30px;
+  padding-left: 20px;
+}
+.col-sm-6.case-elbolaget p {
+  text-align: left;
+  font-size: 24px;
+  width: 500px;
+}
+
+.col-sm-6.case-customer-journey {
+  padding-left: 250px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+}
+.col-sm-6.case-customer-journey p {
+  text-align: left;
+  font-size: 24px;
+  width: 443px;
+}
+
+.col-sm-6.whats-on-your-mind-frontsida {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  padding-bottom: 50px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6.whats-on-your-mind-frontsida p {
+  font-size: 18px;
+}
+
+.persona-case-img-zoom {
+  transition: transform 0.2s, visibility 0.2s ease;
+}
+
+.persona-case-img-zoom:hover {
+  transform: scale(1.03);
+}
+
+.elbolaget-case-img-zoom {
+  transition: transform 0.2s, visibility 0.2s ease;
+}
+
+.elbolaget-case-img-zoom:hover {
+  transform: scale(1.03);
+}
+
+.customer-journey-case-img-zoom {
+  transition: transform 0.2s, visibility 0.2s ease;
+}
+
+.customer-journey-case-img-zoom:hover {
+  transform: scale(1.03);
+}
+
+.siri-about-bild {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-style: none;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.col-sm-6.about-contact-page {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.col-sm-6.about-contact-page p {
+  font-size: 18px;
+  text-align: left;
+  width: 400px;
+  margin: 0px 0px 24px;
+  object-fit: center;
+}
+.col-sm-6.about-contact-page h3 {
+  font-size: 26px;
+}
+
+.col-sm-6.contact-bild {
+  padding-left: 100p px;
+}
+.col-sm-6.contact-bild p {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.col-sm-6.spare-time-text {
+  padding-left: 100px;
+  padding-top: 100px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6.spare-time-text p {
+  font-style: italic;
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.virkning {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.bottom-section-about {
+  justify-content: center;
+  max-width: 600px;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.bottom-section-about p {
+  font-size: 18px;
+}
+
+.col-sm-6.persona-about {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6.persona-about p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.kaffekopp {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.header-persona {
+  background-color: #c3ceb7;
+  width: auto;
+  height: 500px;
+}
+
+.header-text-persona {
+  text-align: center;
+  width: 600px;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 300px;
+  padding-top: 100px;
+}
+.header-text-persona h1, .header-text-persona p {
+  color: #292b3d;
+  text-align: center;
+}
+
+.screenshot-enkät {
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+.col-sm-6.survey-persona {
+  padding-left: 100px;
+  padding-top: 75px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6.survey-persona p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+#minArrayDiv li {
+  float: none;
+  list-style-type: disc;
+  font-family: "Work Sans";
+}
+
+.quote-from-respondent {
+  width: auto;
+  height: 326px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.quote-from-respondent p {
+  width: 1000px;
+  text-align: center;
+  margin-left: 200px;
+  font-size: 18px;
+}
+
+.persona-resultat-img {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.col-sm-6.results-persona {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6.results-persona p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.what-have-i-learned-persona {
+  justify-content: center;
+  max-width: 750px;
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.what-have-i-learned-persona p {
+  font-size: 18px;
+}
+
+footer {
+  width: auto;
+  height: 88px;
+  background-color: #1d2227;
+  align-items: center;
+}
+footer #demo {
+  font-size: 20px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.header-elbolaget {
+  background-color: #E7EDFE;
+  width: auto;
+  height: 500px;
+}
+
+.header-text-elbolaget {
+  text-align: center;
+  width: 600px;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 300px;
+  padding-top: 100px;
+}
+.header-text-elbolaget h1, .header-text-elbolaget p {
+  color: #292b3d;
+  text-align: center;
+}
+
+.about-elbolaget {
+  justify-content: center;
+  max-width: 700px;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.about-elbolaget p {
+  font-size: 18px;
+}
+
+.spreadsheet-img {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.col-sm-6.sprint1-research {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6.sprint1-research p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.wireframe-bild {
+  margin-top: 140px;
+  margin-left: 200px;
+}
+
+.col-sm-6.sprint2-wireframe {
+  padding-left: 150px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 600px;
+}
+.col-sm-6.sprint2-wireframe p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.sprint3-user-stories {
+  justify-content: center;
+  max-width: 750px;
+  margin-top: 100px;
+  margin-left: 370px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.sprint3-user-stories p {
+  font-size: 18px;
+}
+
+.computer-img {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.col-sm-6.sprint4-user-testing {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6.sprint4-user-testing p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.figma-img {
+  margin-top: 140px;
+  margin-left: 200px;
+}
+
+.col-sm-6.sprint5-final-design-process {
+  padding-left: 150px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6.sprint5-final-design-process p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.heading-results h1 {
+  width: auto;
+  height: 326px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.prototype-results-img {
+  background-color: #E8E9F3;
+  width: auto;
+  height: 600px;
+}
+.prototype-results-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding-top: 50px;
+}
+
+.what-have-i-learned-elbolaget {
+  justify-content: center;
+  max-width: 750px;
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.what-have-i-learned-elbolaget p {
+  font-size: 18px;
+}
+
+.header-customer-journey {
+  background-color: #EEF4FF;
+  width: auto;
+  height: 500px;
+}
+
+.header-text-customer-journey {
+  text-align: center;
+  width: 600px;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 300px;
+  padding-top: 100px;
+}
+.header-text-customer-journey h1, .header-text-customer-journey p {
+  color: #292B3D;
+  text-align: center;
+}
+
+.about-customer-journey {
+  justify-content: center;
+  max-width: 700px;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.about-customer-journey p {
+  font-size: 18px;
+}
+
+.col-sm-6.text-customer-journey-persona {
+  padding-left: 150px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 600px;
+}
+.col-sm-6.text-customer-journey-persona p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.cj-persona-img {
+  margin-top: 250px;
+  margin-left: 200px;
+}
+
+.interview-observation-img {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.col-sm-6-interview-observation {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 500px;
+}
+.col-sm-6-interview-observation p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.col-sm-6.text-processing-cj {
+  padding-left: 150px;
+  padding-top: 50px;
+  margin: 56px 0px;
+  justify-content: center;
+  max-width: 600px;
+}
+.col-sm-6.text-processing-cj p {
+  font-size: 18px;
+  font-family: "Work Sans";
+}
+
+.cj-figjam-img {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.heading-results-cj {
+  width: auto;
+  height: 326px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.heading-results-cj p {
+  width: 1000px;
+  text-align: center;
+  margin-left: 200px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .short-cv h1 {
+    font-size: 25px;
+  }
+  .short-cv h3 {
+    font-size: 18px;
+  }
+  .short-cv p {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
